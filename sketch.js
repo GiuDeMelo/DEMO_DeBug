@@ -150,7 +150,7 @@ function createHouse(){
      gHouse.add(celling);
 
     //npc1 sprite
-     npc1 = createSprite(displayWidth/2,displayHeight/2);
+     npc1 = createSprite(displayWidth/12,displayHeight-150);
      //npc1.shapeColor = "black";
      npc1.addImage("npc1img",npc1Img);
      npc1.scale = 2.5;
